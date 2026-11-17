@@ -1,0 +1,13 @@
+{
+  "name": "jdc-test-store-dawn",
+  "private": true,
+  "packageManager": "pnpm@12.18.0",
+  "scripts": {
+    "dev": "dotenv -e .env -- shopify theme dev",
+    "check": "shopify theme check"
+  },
+  "devDependencies": {
+    "@shopify/cli": "^5.0.1",
+    "dotenv-cli": "^11.1.0"
+  }
+}
